@@ -1,5 +1,6 @@
 # Linux File Management System
 
+### <em>Video Walkthrough: </em>https://youtu.be/3vZHrbaczI8
 
 ## Introduction:
 This project involved working with Ubuntu on Linux.  One of my hobbies is teaching English to people from other countries, and I wanted to use Linux in a scenario related to teaching English.  
