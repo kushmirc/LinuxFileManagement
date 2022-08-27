@@ -16,3 +16,7 @@ When looking at VMWare’s website, I noticed that there is WMWare Workstation a
 This document serves as a manual that others can use to accomplish the same thing, should they wish to do so.  
 
 ## Manual Body:
+1. Download the Unbutu Linux desktop ISO file. 
+
+![image](https://user-images.githubusercontent.com/107213928/187050134-76fd38f9-d1e8-43ee-90a4-a76fa74f42d7.png)
+
