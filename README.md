@@ -132,4 +132,24 @@ WSGIDaemonProcess <strong>recoll user=kushmirchandani</strong> group=root thread
 
 ![step 22](https://user-images.githubusercontent.com/107213928/187052412-8e9421fe-d5e1-4eb5-abb2-124a69cca335.png)
 
+23. Using the search bar in Recoll, you are now able to perform various searches for files.  For example, you can search by file type by entering “*.pdf”.  Or, you can search the full content of files for desired keywords, such as “business”.
+
+![step 23](https://user-images.githubusercontent.com/107213928/187053496-4e2197b9-1770-4c97-b2ce-78c27625ffc7.png)
+![step 23 2](https://user-images.githubusercontent.com/107213928/187053503-4f394274-3b89-4329-9b80-3bda6ad52299.png)
+
+### Troubleshooting Tips:
+•	Step 11:  If you’re unable to remove the .html file from /var/www/html, you may need to add permissions to write to this file.  You can do this with the following command, 	
+sudo chmod -R 757 /var/www/html3
+
+•	Step 16:  If you’re unable to edit the /etc/apache2/mods-enabled/wsgi.conf file, you may need to add permissions.  You can do this with the following command, chmod +rwx directoryname to add permissions.  For example, chmod +rwx /etc.
+
+•	Step 21:  If you get an error when running the sudo systemctl restart apache2 command, you can also stop and then start Apache with the following commands, sudo service apache2 start and sudo service apache2.
+
+•	Step 23:  If you’re unable to view files in the Recoll WebUI in Firefox, you may need to edit the Firefox <profile> file to authorize Firefox to open local files.  Include the following in the /.mozilla/firefox/<profile>/user.js file (in the home directory):
+	
+   user_pref("capability.policy.policynames", "localfilelinks");<br>
+   user_pref("capability.policy.localfilelinks.sites", "http://localhost:8080");<br>
+   user_pref("capability.policy.localfilelinks.checkloaduri.enabled", "allAccess");<br>
+	
+If you can’t find a <profile> file, you may need to create your profile.  Instructions for creating a profile can be found here: https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles9
 
