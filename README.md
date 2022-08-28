@@ -1,7 +1,7 @@
 # Linux File Management System
 
 ### <em>Video Walkthrough: </em>https://youtu.be/3vZHrbaczI8
-<a href="https://youtu.be/3vZHrbaczI8" target="_blank">
+<a href="https://youtu.be/3vZHrbaczI8">
 <img src="https://user-images.githubusercontent.com/107213928/187052412-8e9421fe-d5e1-4eb5-abb2-124a69cca335.png" alt="video walkthrough"></a>
 
 ## Introduction:
