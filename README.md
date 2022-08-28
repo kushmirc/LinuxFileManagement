@@ -1,9 +1,8 @@
 # Linux File Management System
 
 ### <em>Video Walkthrough: </em>https://youtu.be/3vZHrbaczI8
-<a href="https://youtu.be/3vZHrbaczI8" target="_blank" rel="noopener noreferrer">
-<img src="https://user-images.githubusercontent.com/107213928/187052412-8e9421fe-d5e1-4eb5-abb2-124a69cca335.png" alt="video walkthrough">
-</a>
+<a href="https://youtu.be/3vZHrbaczI8" target="_blank">
+<img src="https://user-images.githubusercontent.com/107213928/187052412-8e9421fe-d5e1-4eb5-abb2-124a69cca335.png" alt="video walkthrough"></a>
 
 ## Introduction:
 This project involved working with Ubuntu on Linux.  One of my hobbies is teaching English to people from other countries, and I wanted to use Linux in a scenario related to teaching English.  
