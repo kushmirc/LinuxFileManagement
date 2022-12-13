@@ -22,7 +22,7 @@ This document serves as a manual that others can use to accomplish the same thin
 
 ![step 1](https://user-images.githubusercontent.com/107213928/187050374-7c679587-2d92-4809-9f95-3ed6c1b6887b.png)
 
-2. Install the Unbutu Linus desktop ISO file on WMWare Fusion. 
+2. Install the Unbutu Linux desktop ISO file on WMWare Fusion. 
 
 ![step 2](https://user-images.githubusercontent.com/107213928/187050409-ab0b695b-4548-436b-93f2-c90ebd9a0994.png)
 
